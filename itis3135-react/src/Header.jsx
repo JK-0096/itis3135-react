@@ -4,8 +4,8 @@ export default function Header() {
        <header>
             <h1>John Kim | ITIS3135</h1>
             <nav>
-                <NavLink to="/" end className="nav-link">Home </NavLink>
-                <NavLink to="/Introduction" end className="nav-link">Introduction </NavLink>
+                <NavLink to="/" end className="nav-link">Home || </NavLink>
+                <NavLink to="/Introduction" end className="nav-link">Introduction || </NavLink>
                 <NavLink to="/Contract" end className="nav-link">Contract</NavLink>
             </nav>
             <nav>

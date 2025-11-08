@@ -1,0 +1,61 @@
+import Header from './Header';
+import { Outlet } from 'react-router';
+import IntroPhoto from "./assets/photo.png";
+export default function Introduction() {
+    return (<>
+        
+        <main>
+            <h2>Introduction</h2>
+            
+            <section id="personal-background">
+                <h3>Personal Background</h3>
+                <p>I am John, a student at UNCC majoring in the computer science field.</p>
+            </section>
+
+            <section id="professional-background">
+                <h3>Professional Background</h3>
+                <p>I am currently a freelance artist, taking commissions from people.</p>
+            </section>
+
+            <section id="academic-background">
+                <h3>Academic Background</h3>
+                <p>My major is computer science, going in the direction of a bachelor of science. Right now, it’s my junior year at UNCC.</p>
+            </section>
+
+            <section id="background-in-course">
+                <h3>Background in ITIS3135</h3>
+                <p>This course is currently getting me to learn html and css at the moment.</p>
+            </section>
+
+            <section id="primary-computer-platform">
+                <h3>Primary Computer Platform</h3>
+                <p>Microsoft home desktop Windows 11 PC</p>
+            </section>
+
+            <section id="courses-taking">
+                <h3>Courses I'm Taking</h3>
+                <ul>
+                    <li>ITIS3135 - Web Development</li>
+                    <li>ITSC2181 - Introduction to Computer Systems</li>
+                    <li>CTCM2530 - Interdisciplinary Critical Thinking and Communication</li>
+                </ul>
+            </section>
+
+            <section id="funny-thing">
+                <h3>Funny Story</h3>
+                <p>One time when I was little I asked for a pair of Jordans and then I got a T-shirt with the Jordans logo on it.</p>
+            </section>
+
+            <section id="other-things-to-share">
+                <h3>Something Else to Share</h3>
+                <p>In spare time, I like to run outside in nice weather, draw pictures, and watch movies with my friends, even if said movies aren’t very good. During my free time, it is often spent doing those things in particular.</p>
+            </section>
+
+            <section id="image">
+                <h3>Photo</h3>
+                <img src={IntroPhoto} alt="John Kim" width={300} height={400} loading = "lazy"/>
+            </section>
+        </main>
+        
+    </>);
+}

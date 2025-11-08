@@ -1,0 +1,27 @@
+export default function Footer() {
+    return (
+        <footer>
+            <p>© 2024 Joint Komodo. All rights reserved.</p>
+
+            <nav>
+                <a href="https://webpages.charlotte.edu/ykim87/">CLT Web</a> ||
+                <a href="https://github.com/JK-0096/">GitHub</a> ||
+                <a href="https://JK-0096.github.io">GitHub.io</a> ||
+                <a href="https://www.freecodecamp.org/jk-0096">freeCodeCamp</a> ||
+                <a href="https://www.codecademy.com/profiles/JK-0096">Codecademy</a> ||
+                <a href="https://www.linkedin.com/feed/">LinkedIn</a> ||
+                <a href="/ITIS3135/website_evalutations.html">Website Evaluations</a>
+
+            </nav>
+
+            <p>Page built by <a href="https://webpages.charlotte.edu/ykim87/ITIS3135/jointkomodo.com/index.html">Joint Komodo</a> ©2025</p>
+            <p>"Live Exoticly"</p>
+
+            <div class="validation-links">
+                <a href="https://validator.w3.org/" target="_blank">HTML Validation</a>
+                <a href="https://jigsaw.w3.org/css-validator/" target="_blank">CSS Validation</a>
+            </div>
+        </footer>
+
+    );
+}

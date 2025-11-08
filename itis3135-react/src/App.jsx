@@ -8,7 +8,11 @@ function App() {
 
   return (
     <>
-      <div>
+    <h2>ITIS3135 Home Page</h2>
+    <p>Nationality: South Korean</p>
+    <p>Majoring: Computer Science</p>
+      {      
+      /* <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -27,7 +31,7 @@ function App() {
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
-      </p>
+      </p> */}
     </>
   )
 }

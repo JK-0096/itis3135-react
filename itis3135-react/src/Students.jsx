@@ -54,16 +54,14 @@ export default function Students() {
                             <a href={student.links.githubio}>GitHub.io</a>
                         </p>
 
-                        {
-                            student.media && (
-                                <div>
-                                    <img src = {"https://dvonb.xyz/" + student.media.src} alt="Student Media" style={{ maxWidth: "200px", height: "auto" }}/>
-                                    <p>
-                                        {student.media.caption};
-                                    </p>
-                                </div>
-                            )
-                        }
+                        <div>
+                            <img src = {"https://dvonb.xyz/" + student.media.src} alt="Student Media" style={{ maxWidth: "200px", height: "auto" }}/>
+                            <p>
+                                {student.media.caption};
+                            </p>
+                        </div>
+                            
+                        
 
                         {/* hello */}
                         

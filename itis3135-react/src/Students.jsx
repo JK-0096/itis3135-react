@@ -23,7 +23,7 @@ export default function Students() {
                         </p>
 
                         <p>
-                            <strong>Date:</strong> {student.acknowledgementdate}
+                            <strong>Date:</strong> {student.acknowledgementDate}
                         </p>
 
                     </div>

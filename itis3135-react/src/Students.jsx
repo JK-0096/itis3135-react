@@ -24,7 +24,7 @@ export default function Students() {
                         <p><strong>Device:</strong> {student.platform.device}</p>
                         <p><strong>OS:</strong> {student.platform.os}</p>
 
-                        <h3>Backgrounds</h3>
+                        {/* <h3>Backgrounds</h3>
                         <p><strong>Personal:</strong> {student.backgrounds.personal}</p>
                         <p><strong>Professional:</strong> {student.backgrounds.professional}</p>
                         <p><strong>Academic:</strong> {student.backgrounds.academic}</p>
@@ -63,7 +63,7 @@ export default function Students() {
                                     </p>
                                 </div>
                             )
-                        }
+                        } */}
 
                     </div>
                 ))}

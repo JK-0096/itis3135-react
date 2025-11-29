@@ -64,8 +64,6 @@ export default function Students() {
                         <p>
                             Hello
                         </p>
-
-                        {/* hello */}
                         
 
                     </div>

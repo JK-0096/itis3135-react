@@ -22,13 +22,13 @@ export default function Students() {
                             <strong>Email:</strong> {student.email}
                         </p>
 
-                        <p>
+                        {/* <p>
                             <strong>Website:</strong> <a href={student.website}>{student.website}</a>
                         </p>
-                        
+
                         <p>
                             <strong>Hobbies:</strong> {student.hobbies}
-                        </p>
+                        </p> */}
                     </div>
                 ))}
         </div>

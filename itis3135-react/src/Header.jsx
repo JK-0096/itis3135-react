@@ -7,6 +7,7 @@ export default function Header() {
                 <NavLink to="/" end className="nav-link">Home || </NavLink>
                 <NavLink to="/Introduction" end className="nav-link">Introduction || </NavLink>
                 <NavLink to="/Contract" end className="nav-link">Contract</NavLink>
+                <NavLink to="/Students" end className="nav-link"> || Students</NavLink>
             </nav>
             <nav>
             <a href="ITIS3135/stuff/ROCK&YOU.htm">Crappy Webpage Assignment || </a>

@@ -36,7 +36,7 @@ export default function Students() {
                             ))}
                         </ul>
 
-                        <h3>Personal Statement</h3>
+                        {/* <h3>Personal Statement</h3>
                         <p>{student.personalStatement}</p>
 
                         <h3>Favorite Quote</h3>
@@ -63,9 +63,8 @@ export default function Students() {
                                     </p>
                                 </div>
                             )
-                        }
-
-                        {/* abc */}
+                        } */}
+                        
 
                     </div>
                 ))}

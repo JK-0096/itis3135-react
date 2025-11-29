@@ -55,7 +55,7 @@ export default function Students() {
                         </p>
 
                         {
-                            student.media.hasImage && (
+                            student.media && (
                                 <div>
                                     <img src = {"https://dvonb.xyz/" + student.media.src} alt="Student Media" style={{ maxWidth: "200px", height: "auto" }}/>
                                     <p>

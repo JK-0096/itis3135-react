@@ -15,20 +15,17 @@ export default function Students() {
                     <div key={index} style={{ border: "1px solid black", margin: "10px", padding: "10px" }}>
 
                         <p>
-                            <strong>Name:</strong> {student.name}
+                            <strong>Prefix:</strong> {student.prefix}
                         </p>
 
                         <p>
-                            <strong>Email:</strong> {student.email}
-                        </p>
-
-                        {/* <p>
-                            <strong>Website:</strong> <a href={student.website}>{student.website}</a>
+                            <strong>Acknowledgement:</strong> {student.acknowledgement}
                         </p>
 
                         <p>
-                            <strong>Hobbies:</strong> {student.hobbies}
-                        </p> */}
+                            <strong>Date:</strong> {student.acknowledgementdate}
+                        </p>
+
                     </div>
                 ))}
         </div>

@@ -32,11 +32,11 @@ export default function Students() {
                         <h3>Courses</h3>
                         <ul>
                             {student.courses.map((course, i) => (
-                            <li key={i}>{course.dept} {course.num} {course.name} {course.reason} {course.code}</li>
+                            <li key={i}>{course.dept} {course.num} {course.name}: {course.reason}</li>
                             ))}
                         </ul>
 
-                        {/* <h3>Personal Statement</h3>
+                        <h3>Personal Statement</h3>
                         <p>{student.personalStatement}</p>
 
                         <h3>Favorite Quote</h3>
@@ -63,7 +63,7 @@ export default function Students() {
                                     </p>
                                 </div>
                             )
-                        } */}
+                        }
 
                         
 

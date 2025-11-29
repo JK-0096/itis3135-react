@@ -17,19 +17,19 @@ export default function Students() {
                         <h2>{student.name.preferred || student.name.first} {student.name.last}</h2>
                         <p><strong>Prefix:</strong> {student.prefix}</p>
 
-                        {/* <p><strong>Acknowledgement:</strong> {student.acknowledgement}</p>
+                        <p><strong>Acknowledgement:</strong> {student.acknowledgement}</p>
                         <p><strong>Mascot:</strong> {student.mascot}</p>
 
                         <h3>Platform</h3>
                         <p><strong>Device:</strong> {student.platform.device}</p>
-                        <p><strong>OS:</strong> {student.platform.os}</p> */}
+                        <p><strong>OS:</strong> {student.platform.os}</p>
 
-                        {/* <h3>Backgrounds</h3>
+                        <h3>Backgrounds</h3>
                         <p><strong>Personal:</strong> {student.backgrounds.personal}</p>
                         <p><strong>Professional:</strong> {student.backgrounds.professional}</p>
                         <p><strong>Academic:</strong> {student.backgrounds.academic}</p>
 
-                        <h3>Courses</h3>
+                        {/* <h3>Courses</h3>
                         <ul>
                             {student.courses.map((course, i) => (
                             <li key={i}>{course}</li>

@@ -49,13 +49,13 @@ export default function Students() {
 
                         <h3>Links</h3>
                         <p>
-                            <a href={student.links.Charlotte}>Charlotte Site</a><br/>
-                            <a href={student.links.GitHub}>GitHub</a><br/>
+                            <a href={student.links.charlotte}>Charlotte Site</a><br/>
+                            <a href={student.links.gitHub}>GitHub</a><br/>
                             <a href={student.links.githubio}>GitHub.io</a>
                         </p>
 
                         {
-                            student.media.hasMedia && (
+                            student.media.hasImage && (
                                 <div>
                                     <img src={student.media.src} alt="Student Media" style={{ maxWidth: "200px", height: "auto" }}/>
                                     <p>

@@ -29,7 +29,7 @@ export default function Students() {
                         <p><strong>Professional:</strong> {student.backgrounds.professional}</p>
                         <p><strong>Academic:</strong> {student.backgrounds.academic}</p>
 
-                        {/* <h3>Courses</h3>
+                        <h3>Courses</h3>
                         <ul>
                             {student.courses.map((course, i) => (
                             <li key={i}>{course}</li>
@@ -63,9 +63,7 @@ export default function Students() {
                                     </p>
                                 </div>
                             )
-                        } */}
-
-                        {/* hellp */}
+                        }
 
                     </div>
                 ))}

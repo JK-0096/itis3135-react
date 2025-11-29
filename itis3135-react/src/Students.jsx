@@ -60,10 +60,6 @@ export default function Students() {
                                 {student.media.caption};
                             </p>
                         </div>
-                            
-                        <p>
-                            Hello
-                        </p>
                         
 
                     </div>
